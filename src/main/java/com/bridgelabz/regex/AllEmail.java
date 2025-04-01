@@ -14,7 +14,7 @@ public class AllEmail {
         // Compile the pattern
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(input);
-
+//good
         // Find and print all matching email addresses
         while (matcher.find()) {
             System.out.println("Matched: " + matcher.group());
