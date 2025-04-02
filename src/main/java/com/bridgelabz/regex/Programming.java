@@ -12,6 +12,7 @@ public class Programming {
         String[] languages = { "Java", "Python", "C++", "JavaScript", "Ruby", "Swift", "Go", "Kotlin", "Rust", "PHP" };
 
         String regex = "\\b(" + String.join("|", languages) + ")\\b";
+
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(input);
 
